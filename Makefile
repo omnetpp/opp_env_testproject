@@ -1,8 +1,8 @@
 all:
-	@echo make invoked
+	@echo make MODE=$(MODE) invoked
 
 clean:
-	@echo make clean invoked
+	@echo make clean MODE=$(MODE) invoked
 
 test:
 	@echo make test invoked
